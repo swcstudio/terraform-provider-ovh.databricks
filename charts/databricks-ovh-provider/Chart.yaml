@@ -1,0 +1,20 @@
+apiVersion: v2
+name: databricks-ovh-provider
+description: A Helm chart for Databricks OVH Terraform Provider
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+keywords:
+  - terraform
+  - databricks
+  - ovh
+  - provider
+  - infrastructure
+  - ml
+  - analytics
+home: https://github.com/spectrumwebco/terraform-provider-databricks-ovh
+sources:
+  - https://github.com/spectrumwebco/terraform-provider-databricks-ovh
+maintainers:
+  - name: Spectrum Web Co
+    email: support@spectrumweb.co
