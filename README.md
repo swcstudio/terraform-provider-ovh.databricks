@@ -1,6 +1,6 @@
-# Terraform Provider for Databricks on OVH
+# Terraform Provider for Databricks on OVHcloud
 
-This Terraform provider enables management of Databricks resources on OVH cloud infrastructure, providing enterprise-grade analytics and machine learning capabilities with European data sovereignty and cost optimization.
+This Terraform provider enables you to manage Databricks resources on OVHcloud infrastructure, providing seamless integration between Databricks cloud-native services and OVHcloud's robust infrastructure platform.
 
 ## Features
 
@@ -107,7 +107,7 @@ make install
 
 ## License
 
-Apache 2.0 License - see [LICENSE](LICENSE) for details.
+This project is licensed under the Mozilla Public License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
