@@ -99,32 +99,28 @@ func (p *DatabricksOVHProvider) Configure(ctx context.Context, req provider.Conf
 	}
 
 	if config.OVHEndpoint.IsUnknown() {
-		resp.Diagnostics.AddAttributeError(
-			req.Config.Path().AtName("ovh_endpoint"),
+		resp.Diagnostics.AddError(
 			"Unknown OVH API Endpoint",
 			"The provider cannot create the OVH API client as there is an unknown configuration value for the OVH API endpoint.",
 		)
 	}
 
 	if config.OVHApplicationKey.IsUnknown() {
-		resp.Diagnostics.AddAttributeError(
-			req.Config.Path().AtName("ovh_application_key"),
+		resp.Diagnostics.AddError(
 			"Unknown OVH Application Key",
 			"The provider cannot create the OVH API client as there is an unknown configuration value for the OVH application key.",
 		)
 	}
 
 	if config.OVHApplicationSecret.IsUnknown() {
-		resp.Diagnostics.AddAttributeError(
-			req.Config.Path().AtName("ovh_application_secret"),
+		resp.Diagnostics.AddError(
 			"Unknown OVH Application Secret",
 			"The provider cannot create the OVH API client as there is an unknown configuration value for the OVH application secret.",
 		)
 	}
 
 	if config.OVHConsumerKey.IsUnknown() {
-		resp.Diagnostics.AddAttributeError(
-			req.Config.Path().AtName("ovh_consumer_key"),
+		resp.Diagnostics.AddError(
 			"Unknown OVH Consumer Key",
 			"The provider cannot create the OVH API client as there is an unknown configuration value for the OVH consumer key.",
 		)
@@ -155,32 +151,28 @@ func (p *DatabricksOVHProvider) Configure(ctx context.Context, req provider.Conf
 	}
 
 	if endpoint == "" {
-		resp.Diagnostics.AddAttributeError(
-			req.Config.Path().AtName("ovh_endpoint"),
+		resp.Diagnostics.AddError(
 			"Missing OVH API Endpoint",
 			"The provider requires an OVH API endpoint to be configured.",
 		)
 	}
 
 	if applicationKey == "" {
-		resp.Diagnostics.AddAttributeError(
-			req.Config.Path().AtName("ovh_application_key"),
+		resp.Diagnostics.AddError(
 			"Missing OVH Application Key",
 			"The provider requires an OVH application key to be configured.",
 		)
 	}
 
 	if applicationSecret == "" {
-		resp.Diagnostics.AddAttributeError(
-			req.Config.Path().AtName("ovh_application_secret"),
+		resp.Diagnostics.AddError(
 			"Missing OVH Application Secret",
 			"The provider requires an OVH application secret to be configured.",
 		)
 	}
 
 	if consumerKey == "" {
-		resp.Diagnostics.AddAttributeError(
-			req.Config.Path().AtName("ovh_consumer_key"),
+		resp.Diagnostics.AddError(
 			"Missing OVH Consumer Key",
 			"The provider requires an OVH consumer key to be configured.",
 		)
