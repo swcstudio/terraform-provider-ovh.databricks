@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     databricks-ovh = {
-      source  = "spectrumwebco/databricks-ovh"
+      source  = "swcstudio/databricks-ovh"
       version = "~> 0.1.0"
     }
   }

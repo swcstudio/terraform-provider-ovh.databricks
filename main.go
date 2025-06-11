@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"github.com/spectrumwebco/terraform-provider-databricks-ovh/internal/provider"
+	"github.com/swcstudio/terraform-provider-databricks-ovh/internal/provider"
 )
 
 var (
@@ -21,7 +21,7 @@ func main() {
 	flag.Parse()
 
 	opts := providerserver.ServeOpts{
-		Address: "registry.terraform.io/spectrumwebco/databricks-ovh",
+		Address: "registry.terraform.io/swcstudio/databricks-ovh",
 		Debug:   debug,
 	}
 

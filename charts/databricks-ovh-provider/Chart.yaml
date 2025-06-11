@@ -12,9 +12,9 @@ keywords:
   - infrastructure
   - ml
   - analytics
-home: https://github.com/spectrumwebco/terraform-provider-databricks-ovh
+home: https://github.com/swcstudio/terraform-provider-databricks-ovh
 sources:
-  - https://github.com/spectrumwebco/terraform-provider-databricks-ovh
+  - https://github.com/swcstudio/terraform-provider-databricks-ovh
 maintainers:
   - name: Spectrum Web Co
     email: support@spectrumweb.co
