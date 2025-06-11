@@ -18,7 +18,7 @@ This Terraform provider enables you to manage Databricks resources on OVHcloud i
 terraform {
   required_providers {
     databricks-ovh = {
-      source  = "spectrumwebco/databricks-ovh"
+      source  = "swcstudio/databricks-ovh"
       version = "~> 0.1.0"
     }
   }
@@ -111,4 +111,4 @@ This project is licensed under the Mozilla Public License 2.0 - see the [LICENSE
 
 ## Support
 
-For issues and feature requests, please use the [GitHub issue tracker](https://github.com/spectrumwebco/terraform-provider-databricks-ovh/issues).
+For issues and feature requests, please use the [GitHub issue tracker](https://github.com/swcstudio/terraform-provider-databricks-ovh/issues).

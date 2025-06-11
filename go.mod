@@ -1,4 +1,4 @@
-module github.com/spectrumwebco/terraform-provider-databricks-ovh
+module github.com/swcstudio/terraform-provider-databricks-ovh
 
 go 1.23.0
 
